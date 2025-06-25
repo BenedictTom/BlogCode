@@ -1,0 +1,46 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 一起享受科技带来的乐趣
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/07/01/649fd358745a1.webp
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: Mac air 2025 13 英寸
+          specification: M4 16G / 512G
+          description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
+          image: https://img.picgo.net/2025/06/24/mac_iphone__n2863l0ne0q6_large987e7df09e696d90.jpg
+          link: https://www.apple.com.cn/macbook-air/
+        - name: REDMI Book 14 2025
+          specification: 星光银 / 8G / 512G
+          description: 人生第一台笔记本，坚挺6年，仍在服役
+          image: https://img.picgo.net/2025/06/24/pms_1744870367.0481865888d99ac9638cd67.png
+          link: https://www.mi.com/shop/buy/detail?product_id=20870&cfrom=search
+        - name: xiaomi 14
+          specification: 绿色 / 1T
+          description: 人生第一个旗舰手机，小屏手机，手感很好，拍照效果不错，续航也不错，充电速度也很快，性价比很高。
+          image: https://img.picgo.net/2025/06/24/pms_1698307643.47369771984c90b5c40f84ac.png
+          link: https://www.mi.com/shop/buy/detail?product_id=19300&cfrom=search
+        - name: 台式机（自己组装）
+          specification: 1060战神
+          description: 高考毕业组装的电脑，1060显卡，i5 8400，16G内存，256固态硬盘，1T机械硬盘，外表沧桑，但性能也不强劲。
+          image: https://img.picgo.net/2025/06/24/_20250624235223da3187ed56988645.jpg
+          link: https://www.mi.com/shop/buy/detail?product_id=20870&cfrom=search
+    - title: 出行
+      description: 用来出行的实物及设备
+      equipment_list:
+        - name: Apple Watch Series 8
+          specification: 黑色
+          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
+          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
+          link: https://www.apple.com.cn/apple-watch-series-8/
+        - name: UMM 双肩包
+          specification: 黑色
+          description: 黑色大包，可以装下两个电脑，并且背起来很舒适
+          image: https://img.picgo.net/2025/06/24/_2025062423420460aa4c2e43e8aace.png
+          link: https://item.jd.com/100011269828.html
+        - name: VENQUE 便捷挎包
+          specification: 黑色
+          description: 黑色小包，可以装下手机、充电宝、耳机等小物件，非常方便。
+          image: https://img.picgo.net/2025/06/24/_20250624234647a043be9627201c56.png
+          link: https://item.jd.com/100005889786.html

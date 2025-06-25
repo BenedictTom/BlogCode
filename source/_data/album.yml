@@ -1,0 +1,68 @@
+- class_name: 风景
+  path_name: /wordScenery
+  type: 2
+  description: 自然风景🌇。
+  cover: https://upload-bbs.miyoushe.com/upload/2025/06/13/125766904/2cf2b6aea07bba089d0d17c4fea72d1b_5366629137934368264.png
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52b48aafc.webp
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2022/10/26 01:00:00
+      content: 湘潭的一角。
+      address: 湖南湘潭
+      from: 再吃一口就减肥
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+    - date: 2022-10-25
+      content: 洛阳暴雨后的天空。
+      address: 河南洛阳
+      from: 紫菜卷
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+
+
+# - class_name: 那些漫画上的神之一页
+#   path_name: /dailyPhoto
+#   type: 1
+#   description: 漫画的张力
+#   top_link: /album
+#   top_btn_text: 返回
+#   top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+#   cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+#   album_list:
+#     - date: 2022-10-24
+#       content: 老妹的画
+#       image:
+#         - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
+
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 我的日常
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52bb04ed2.webp
+  cover: https://img.picgo.net/2025/06/26/_202506260028423e3d8def4879d589.jpg
+  album_list:
+    - date: 2026-6-25
+      content: Joie与猫
+      image:
+        - https://img.picgo.net/2025/06/25/_20250625101316578b901c020b6fea.jpg
+    - date: 2025-6-06
+      content: 生日快乐
+      image:
+        - https://img.picgo.net/2025/06/25/_2025062510132330dea82c79fe9dfa.jpg
+    - date: 2025-5-24
+      content: 古装Joie
+      image:
+        - https://img.picgo.net/2025/06/25/_2025062510132735d840ed178a5dfb.jpg
+    - date: 2025-6-26
+      content: Caps Off, Future On. 🎓✨
+      image:
+        - https://img.picgo.net/2025/06/26/_2025062600223609fdf14d07cf10d9.jpg 
