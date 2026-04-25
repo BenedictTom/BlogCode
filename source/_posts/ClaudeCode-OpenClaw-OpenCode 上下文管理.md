@@ -1,9 +1,9 @@
 ---
 title: ClaudeCode-OpenClaw-OpenCode 上下文管理
 date: 2026-04-25 12:34:16
-tags: [Claude Code, AI, 效率工具]
-categories: [VibeCoding]
-cover: https://picx.zhimg.com/70/v2-602aaee33c31e7fde8d335ede217493a_1440w.avis?source=172ae18b&biz_tag=Post
+tags: [Agent]
+categories: [Agent]
+cover: https://free.picui.cn/free/2026/04/25/69eccad3e8440.png
 ---
 
 ## 前言

@@ -1,9 +1,9 @@
 ---
 title: FunctionCall、Agent、Mcp
 main_color: "#458d8dff"  
-categories: AI
+categories: Agent
 tags:
-  - AI   
+  - Agent
 cover: https://free.picui.cn/free/2026/03/28/69c74e3ac12f2.webp
 ---
 
