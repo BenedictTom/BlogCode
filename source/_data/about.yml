@@ -1,0 +1,103 @@
+- class_name: 关于页
+  subtitle: 生活明朗，Joie可爱✨
+  avatarImg: https://free.picui.cn/free/2026/03/29/69c8afcb6e524.png
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: 曹红伟
+  description: 是一名 后端工程师、健身爱好者、蝙蝠侠(bushi)
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: TOM CAT!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: Master,计算机科学专业
+        color: "#357ef5"
+      - desc: EDU,软件工程专业
+        color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，北京市
+    background: https://free.picui.cn/free/2026/03/28/69c7a12fda062.png
+    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 1999
+    selfInfoTips2: 重庆理工大学
+    selfInfoContent2: 计算机科学
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 后端工程师
+  personalities:
+    author_name: 调停者
+    personality_type: INFP
+    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    personality_img: https://www.16personalities.com/static/animations/type-descriptions/introductions/mediator.svg?v=2
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 生活明朗，
+    maxim_bottom: Joie可爱。
+  buff:
+    buff_tips: 特长
+    buff_top: 爱睡觉的 汤姆猫
+    buff_bottom: 爱吃饭的 十一
+  game:
+    game_tips: 爱好健身
+    game_title: 健身
+    game_uid: "UID: 125766904"
+    game_bg: https://img.picgo.net/2025/06/23/282324633_19_2024041211032038944c8203bb41288f.gif
+  comic:
+    comic_tips: 爱好番剧
+    comic_title: 追番
+    comic_list:
+      - name: 约定的梦幻岛
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
+      - name: 咒术回战
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
+      - name: 紫罗兰永恒花园
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
+      - name: 鬼灭之刃
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
+      - name: JOJO的奇妙冒险 黄金之风
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://img.picgo.net/2025/06/23/234534c43c55b47f4d10e7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 王力宏、民谣、华语流行
+    music_bg: https://img.picgo.net/2025/06/23/_202506232338500fdc070b32422d06.png
+    music_link: /music
+  reward_list:

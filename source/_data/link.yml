@@ -1,0 +1,165 @@
+- class_name: 框架
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网站框架
+    - name: anzhiyu主题
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+    - name: MongoPlus
+      link: https://mongoplus.com/
+      avatar: https://www.mongoplus.com/logo.svg
+      descr: 使用MyBatisPlus的方式，优雅的操作MongoDB
+      siteshot: https://mongoplus.com/document.svg 
+    - name: MyBatis
+      link: https://mybatis.net.cn/
+      avatar: https://img.picgo.net/2025/07/31/OIP-C2603183f04a8a3de.webp
+      descr: 优秀的持久层框架
+      siteshot: https://img.picgo.net/2025/07/31/OIP-C2603183f04a8a3de.webp
+    - name: MyBatisPlus
+      link: https://baomidou.com/
+      avatar: https://ts1.tc.mm.bing.net/th/id/OIP-C.us9oORwntEVNut40HRjjgAHaF_?rs=1&pid=ImgDetMain&o=7&rm=3
+      descr: MyBatis 最佳搭档，只做增强不做改变，为简化开发、提高效率而生。
+      siteshot: 	https://ts1.tc.mm.bing.net/th/id/OIP-C.us9oORwntEVNut40HRjjgAHaF_?rs=1&pid=ImgDetMain&o=7&rm=3
+    - name: SpringDataJpa
+      link: https://springdoc.cn/spring-data-jpa/
+      avatar: https://img.picgo.net/2025/07/31/1815316-20191107080003827-938890217f14b81b2961477da.jpg
+      descr: Spring Data JPA 是 Spring Data 项目的一部分,提供了一种简化的数据访问方式
+      siteshot: https://img.picgo.net/2025/07/31/1815316-20191107080003827-938890217f14b81b2961477da.jpg     
+    - name: MyBatis-Flex
+      link: https://mybatis-flex.com/
+      avatar: https://mybatis-flex.com/assets/images/logo01.png
+      descr: 一个优雅的 MyBatis 增强框架
+      siteshot: https://mybatis-flex.com/assets/images/logo01.png
+    - name: FastAPI
+      link: https://fastapi.org.cn/tutorial/first-steps/  
+      avatar: https://fastapi.org.cn/img/logo-margin/logo-teal.png
+      descr: FastAPI 是一个现代、快速（高性能）的 Web 框架，用于基于标准 Python 类型提示构建 API。
+      siteshot: https://fastapi.org.cn/img/logo-margin/logo-teal.png
+      
+
+- class_name: 推荐网站
+  flink_style: telescopic
+  hundredSuffix: ""
+  link_list:
+    - name: Prompt Engineering Guide
+      link: https://www.promptingguide.ai/zh
+      avatar: https://bce.bdstatic.com/community/uploads/community_214713d.png
+      descr: prompt工程指南
+      siteshot: https://bce.bdstatic.com/community/uploads/community_214713d.png
+      tag: llm
+    - name: picgo图床
+      link: https://www.picgo.net/
+      avatar: https://tse3-mm.cn.bing.net/th/id/OIP-C.eglA6j6bf5sTsl9D9Q9EUQHaEK?w=257&h=180&c=7&r=0&o=5&dpr=2&pid=1.7
+      descr: picgo图床,图片托管
+      siteshot: https://tse3-mm.cn.bing.net/th/id/OIP-C.eglA6j6bf5sTsl9D9Q9EUQHaEK?w=257&h=180&c=7&r=0&o=5&dpr=2&pid=1.7
+      tag: util  
+    - name: 哲风壁纸
+      link: https://haowallpaper.com/
+      avatar: https://img.picgo.net/2025/07/04/-afc351bb285dedf6.jpeg
+      descr: Mac壁纸网站
+      siteshot: https://img.picgo.net/2025/07/04/-afc351bb285dedf6.jpeg
+      tag: util    
+    - name: JavaGuide
+      link: https://javaguide.cn/
+      avatar: https://javaguide.cn/logo.svg
+      descr: 「Java学习 + 面试指南」涵盖 Java 程序员需要掌握的核心知识
+      siteshot: https://javaguide.cn/logo.svg
+      tag: Java    
+    - name: StudyNotes
+      link: https://notes.xiyankt.com/#/
+      avatar: https://notes.xiyankt.com/images/122407_d420f070_4856424.png
+      descr: 主要记录一些Java,Python,Go,Linux运维,Web前端,移动端,数据结构,数据库,K8S,服务网格,大数据,以及面试突击等技术
+      siteshot: https://notes.xiyankt.com/images/122407_d420f070_4856424.png
+      tag: Java    
+    - name: SpringAi
+      link: https://springdoc.cn/spring-ai/index.html
+      avatar: https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg
+      descr: 旨在简化应用程序的开发过程，在不增加不必要的复杂性的前提下整合 AI（人工智能）功能。
+      siteshot: https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg
+      tag: Java    
+    - name: PowerJob
+      link: http://www.powerjob.tech/
+      avatar: https://origin.picgo.net/2025/09/26/poweref32433be51402aa.webp
+      descr: 全新一代分布式任务调度与计算框架
+      siteshot: https://origin.picgo.net/2025/09/26/poweref32433be51402aa.webp
+      tag: Java    
+    - name: 程序员大彬
+      link: https://topjavaer.cn/
+      avatar: https://topjavaer.cn/logo.png
+      descr: 优质的编程学习网站
+      siteshot: https://topjavaer.cn/logo.png
+      tag: Java    
+    - name: AI Code Review
+      link:  https://github.com/sunmh207/AI-Codereview-Gitlab/tree/main
+      avatar: https://github.com/sunmh207/AI-Codereview-Gitlab/raw/main/doc/img/open/ai-codereview-cartoon.png
+      descr: 大模型代码审查
+      siteshot: https://github.com/sunmh207/AI-Codereview-Gitlab/raw/main/doc/img/open/ai-codereview-cartoon.png
+      tag: util    
+    - name: deepwiki-open
+      link: https://deepwiki.com/
+      avatar: https://origin.picgo.net/2025/09/26/Deepwiki0c4e37a641e1c1cc.png
+      descr: 为任何GitHub、GitLab或BitBucket代码仓库自动创建美观、交互式的Wiki！
+      siteshot: https://origin.picgo.net/2025/09/26/Deepwiki0c4e37a641e1c1cc.png
+      tag: util      
+    - name: 开源大模型开发全景图 
+      link: https://antoss-landscape.my.canva.site/
+      avatar:	https://antoss-landscape.my.canva.site/_assets/media/b982c1b23a260a0ee4cca7298547a489.png
+      descr: 开源大模型开发全景图 
+      siteshot: https://antoss-landscape.my.canva.site/_assets/media/b982c1b23a260a0ee4cca7298547a489.png
+      tag: util    
+    - name: prompts.chat
+      link: https://prompts.chat/
+      avatar:	http://private-user-images.githubusercontent.com/196477/400257822-e0d0e32d-d2ce-4459-9f37-e951d9f4f5de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTg4NzYxODYsIm5iZiI6MTc1ODg3NTg4NiwicGF0aCI6Ii8xOTY0NzcvNDAwMjU3ODIyLWUwZDBlMzJkLWQyY2UtNDQ1OS05ZjM3LWU5NTFkOWY0ZjVkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyNlQwODM4MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMzEwODAzNzA4NWE5YzI4MTc1NGViYzdiOGVhODZkN2ZiYzI1NDc5OTA5NTkyOGI3Mjc4OTYyODMxZjg4MWE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._5mB-DMIET9FTg_JvKLn0-xRXNU6xydQxV3SzmvEeAM
+      descr: 高质量提示词网站 
+      siteshot: http://private-user-images.githubusercontent.com/196477/400257822-e0d0e32d-d2ce-4459-9f37-e951d9f4f5de.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTg4NzYxODYsIm5iZiI6MTc1ODg3NTg4NiwicGF0aCI6Ii8xOTY0NzcvNDAwMjU3ODIyLWUwZDBlMzJkLWQyY2UtNDQ1OS05ZjM3LWU5NTFkOWY0ZjVkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkyNlQwODM4MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMzEwODAzNzA4NWE5YzI4MTc1NGViYzdiOGVhODZkN2ZiYzI1NDc5OTA5NTkyOGI3Mjc4OTYyODMxZjg4MWE3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._5mB-DMIET9FTg_JvKLn0-xRXNU6xydQxV3SzmvEeAM
+      tag: util       
+    - name: AI工具集
+      link: https://ai-bot.cn/
+      avatar:	https://ai-bot.cn/ai-bot-logo-vector.svg
+      descr: AI工具集合
+      siteshot: https://ai-bot.cn/ai-bot-logo-vector.svg
+      tag: util       
+    - name: smithery.ai
+      link: https://smithery.ai/
+      avatar:	https://smitheryai.com/logo.png
+      descr: Smithery AI：2896+ 模型上下文协议服务器
+      siteshot: https://smitheryai.com/logo.png
+      tag: util      
+  
+  
+  
+
+
+- class_name: 推荐博客
+  flink_style: telescopic
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      color: vip
+      tag: 技术
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true
+    - name: 猫神甜辣酱
+      link: https://www.cnblogs.com/fangdongdemao
+      avatar: https://img.picgo.net/2025/06/25/20171228213219940a7bf1e17dc13e.png
+      descr: 君子死知己，提剑出燕京
+      recommend: true

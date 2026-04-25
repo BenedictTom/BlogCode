@@ -1,0 +1,18 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://img.picgo.net/2025/06/24/_20250624231055c953ea239ebfb601.jpg
+  essay_list:
+    - content: 安知鱼主题指南
+      date: 2023/09/09
+      video:
+        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
+    - content: 第一次面试别人，感觉还不错,自己也学到很多
+      date: 2025/06/27
+      link: https://benedicttom.github.io/2025/06/27/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95_2025_6_27/
+    - content: 雄关漫道真如铁，而今迈步从头越
+      date: 2025/07/03
