@@ -3,7 +3,7 @@ title: Agent Sandbox：为什么 AI Agent 需要一个安全的执行环境
 date: 2026-04-28 12:00:00
 tags: [Agent, Sandbox, AI]
 categories: [Agent]
-cover: https://free.picui.cn/free/2026/04/25/69eccad3e8440.png
+cover: https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8859012771/p1055149.png
 ---
 
 ## 前言

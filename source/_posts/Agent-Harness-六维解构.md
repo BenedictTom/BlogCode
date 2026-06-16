@@ -3,7 +3,7 @@ title: Agent Harness 六维解构：Prompt、Context、Skills、Orchestration、
 date: 2026-04-25 20:30:00
 tags: [Agent]
 categories: [Agent]
-cover: https://johng.cn/assets/images/image-885cda710b664fa7bdf7fc9e505368e3.png
+cover: https://free.picui.cn/free/2026/06/16/6a30e17fb3afc.png
 ---
 
 ## 前言
