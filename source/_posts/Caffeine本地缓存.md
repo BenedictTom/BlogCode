@@ -1,5 +1,6 @@
 ---
 title: Caffeine本地缓存 
+date: 2026-04-25 19:18:07
 main_color: "#c0e0e0"  
 categories: 缓存  
 tags:

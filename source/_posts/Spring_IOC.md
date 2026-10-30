@@ -1,5 +1,6 @@
 ---
 title: Spring IOC
+date: 2026-04-25 19:18:07
 main_color: "rgb(11, 32, 228)"
 categories: Spring
 tags:

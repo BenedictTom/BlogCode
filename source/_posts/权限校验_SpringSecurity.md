@@ -1,5 +1,6 @@
 ---
 title: 权限校验_SpringSecurity
+date: 2026-04-25 19:18:07
 main_color: "#c21b1bff"
 categories: 权限校验
 tags:

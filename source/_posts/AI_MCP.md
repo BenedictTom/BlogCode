@@ -1,5 +1,6 @@
 ---
 title: FunctionCall、Agent、Mcp
+date: 2026-04-25 19:18:07
 main_color: "#458d8dff"  
 categories: Agent
 tags:
