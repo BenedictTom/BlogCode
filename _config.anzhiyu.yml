@@ -1,0 +1,8 @@
+# Site-level override for the anzhiyu theme (Hexo merges this over
+# themes/anzhiyu/_config.yml). Only sections that differ from the theme
+# defaults belong here.
+mermaid:
+  enable: true
+  theme:
+    light: default
+    dark: dark
