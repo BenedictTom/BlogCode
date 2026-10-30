@@ -111,10 +111,10 @@ deploy:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+    cover: /images/theme/envelope/envelope-cover.jpg #信笺头部图片
+    line: /images/theme/envelope/envelope-line.png #信笺底部图片
+    beforeimg: /images/theme/envelope/envelope-before.png # 信封前半部分
+    afterimg: /images/theme/envelope/envelope-after.png # 信封后半部分
   message: #信笺正文，多行文本，写法如下
     - 有什么想问的？
     - 有什么想说的？

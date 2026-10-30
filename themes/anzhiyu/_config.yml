@@ -133,14 +133,14 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://free.picui.cn/free/2026/03/28/69c770455ffd5.png
+  img: /images/theme/avatar.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url(https://free.picui.cn/free/2026/03/28/69c7707b69a71.png) top / cover no-repeat"
+index_img: "background: url(/images/theme/banner.jpg) top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -166,7 +166,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "请尝试站内搜索寻找文章"
-  background: https://bu.dusays.com/2023/05/08/645907596997d.gif
+  background: /images/theme/404-bg.gif
 
 post_meta:
   page: # Home Page
@@ -239,10 +239,10 @@ post_copyright:
 reward:
   enable: false
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: /images/theme/reward-wechat.png
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: /images/theme/reward-alipay.png
       link:
       text: 支付宝
 
@@ -432,10 +432,10 @@ footer:
     enable: true
     list:
       - link: https://hexo.io/ #徽标指向网站链接
-        shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
+        shields: /images/theme/badge-hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://blog.anheyu.com/
-        shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
+        shields: /images/theme/badge-theme.svg
         message: 本站使用AnZhiYu主题
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
@@ -781,7 +781,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://free.picui.cn/free/2026/03/28/69c770521e454.jpg # 自定加载动画义头像
+  avatar: /images/theme/loading-avatar.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -806,8 +806,8 @@ aside:
     content: 欢迎来看我的博客鸭~
   card_weixin:
     enable: false
-    face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
-    backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
+    face: /images/theme/weixin-face.png
+    backFace: /images/theme/weixin-face.png
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -1067,7 +1067,7 @@ home_top:
   banner:
     tips: 新品主题
     title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+    image: /images/theme/theme-card.webp
     link: https://docs.anheyu.com/
 
 # 朋友圈配置
