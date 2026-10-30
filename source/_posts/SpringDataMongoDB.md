@@ -5,7 +5,7 @@ categories: ORM
 tags:
   - ORM
   - Spring Data
-cover: https://free.picui.cn/free/2026/03/29/69c7fb2417b6d.webp
+cover: /images/SpringDataMongoDB/cover.webp
 ---
 
 # Spring Data MongoDB 完整指南

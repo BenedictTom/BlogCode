@@ -4,7 +4,7 @@ main_color: "#80a340ff"
 categories: 微服务
 tags:
   - Spring Cloud
-cover: https://free.picui.cn/free/2026/03/28/69c74e5516073.png
+cover: /images/Cloud_Nacos/cover.png
 ---
 
 ## Nacos全面指南

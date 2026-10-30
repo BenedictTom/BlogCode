@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: 并发
 tags:
   - I/O
-cover: https://img-blog.csdnimg.cn/direct/2176a40833874f0c8efea1b1a0bcad0c.jpeg
+cover: /images/并发_io多路复用/cover.png
 ---
 
 I/O多路复用全面指南

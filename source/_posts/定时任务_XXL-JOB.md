@@ -4,7 +4,7 @@ main_color: "#0e9428ff"
 categories: 定时任务
 tags:
   - 定时任务
-cover: https://ts3.tc.mm.bing.net/th/id/OIP-C.sYtwxiHeJ1yJoq_6NQkDZAHaDh?rs=1&pid=ImgDetMain&o=7&rm=3
+cover: /images/定时任务_XXL-JOB/cover.webp
 ---
 
 ## XXL-JOB 

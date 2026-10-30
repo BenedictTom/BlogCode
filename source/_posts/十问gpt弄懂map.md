@@ -4,7 +4,7 @@ main_color: "#c0e0e0"
 categories: 集合  
 tags:
   - 集合  
-cover: https://www.dineshonjava.com/wp-content/uploads/2018/10/hashmap-change-in-java8.jpg
+cover: /images/十问gpt弄懂map/cover.webp
 ---
 
 ## 第一问：哈希算法的原理与实现

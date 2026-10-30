@@ -4,7 +4,7 @@ main_color: "#1c214aff"
 categories: 数据库
 tags:
   - Mysql
-cover: https://i-blog.csdnimg.cn/img_convert/40a11c592401ee544a17ee6dff1ca48c.png
+cover: /images/Mysql索引详解/cover.png
 ---
 
 ## 什么是索引

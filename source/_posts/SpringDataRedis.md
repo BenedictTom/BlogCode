@@ -5,7 +5,7 @@ categories: Redis
 tags:
   - Spring Data
   - Redis
-cover: https://free.picui.cn/free/2026/03/28/69c7fa7b7a8d1.png
+cover: /images/SpringDataRedis/cover.png
 ---
 
 # Spring Data Redis 完整指南

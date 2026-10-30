@@ -4,7 +4,7 @@ main_color: "#458d8dff"
 categories: Python
 tags:
   - Python    
-cover: https://free.picui.cn/free/2026/03/28/69c74dead15ee.png
+cover: /images/Python_装饰器/cover.png
 ---
 
 # Python装饰器：优雅的代码增强艺术

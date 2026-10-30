@@ -3,7 +3,7 @@ title: ClaudeCode-OpenClaw-OpenCode 上下文管理
 date: 2026-04-25 12:34:16
 tags: [Agent]
 categories: [Agent]
-cover: https://free.picui.cn/free/2026/04/25/69eccad3e8440.png
+cover: /images/ClaudeCode-OpenClaw-OpenCode-上下文管理/cover.png
 ---
 
 ## 前言

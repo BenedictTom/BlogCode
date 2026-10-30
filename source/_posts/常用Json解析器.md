@@ -4,7 +4,7 @@ main_color: "#1985b7ff"
 categories: Java
 tags:
   - 开发工具
-cover: https://apifox.com/apiskills/content/images/size/w1000/2023/12/image-93.png
+cover: /images/常用Json解析器/cover.png
 ---
 
 

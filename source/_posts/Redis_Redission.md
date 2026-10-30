@@ -7,7 +7,7 @@ tags:
   - Redisson
   - 分布式锁
   - 缓存
-cover: https://free.picui.cn/free/2026/03/29/69c899e433fa4.png
+cover: /images/Redis_Redission/cover.png
 ---
 
 # Redisson全面指南

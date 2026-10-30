@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: 并发
 tags:
   - I/O
-cover: https://free.picui.cn/free/2026/03/28/69c74d59e5732.png
+cover: /images/并发_BIO_NIO_AIO/cover.png
 ---
 
 

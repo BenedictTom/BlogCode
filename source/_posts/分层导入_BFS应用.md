@@ -4,7 +4,7 @@ main_color: "#16c9f19d"
 categories: 业务
 tags:
   - 业务
-cover: https://free.picui.cn/free/2026/03/28/69c74dc1a2358.webp
+cover: /images/分层导入_BFS应用/cover.webp
 ---
 ## 背景与目标
 

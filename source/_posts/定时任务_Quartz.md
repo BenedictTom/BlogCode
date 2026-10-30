@@ -4,7 +4,7 @@ main_color: "#bd128fff"
 categories: 定时任务
 tags:
   - 定时任务
-cover: https://free.picui.cn/free/2026/03/28/69c74e01f0d1d.png
+cover: /images/定时任务_Quartz/cover.png
 ---
 
 

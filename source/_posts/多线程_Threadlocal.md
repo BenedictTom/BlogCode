@@ -5,7 +5,7 @@ categories: 并发
 tags:
   - 并发
   - 多线程
-cover: https://javaguide.cn/assets/1-YS5yhxvD.png
+cover: /images/多线程_Threadlocal/cover.png
 ---
 
 

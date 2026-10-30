@@ -4,7 +4,7 @@ main_color: "#80a340ff"
 categories: 数据库
 tags:
   - Mysql
-cover: https://free.picui.cn/free/2026/03/28/69c74d2a78207.png
+cover: /images/mysql锁/cover.png
 ---
 
 
@@ -53,7 +53,7 @@ cover: https://free.picui.cn/free/2026/03/28/69c74d2a78207.png
 
 #### **3.** **锁的不同角度分类**
 
-![image-20220405093322184](https://cdn.jsdelivr.net/gh/aoshihuankong/cloudimg@master/img/202204050933339.png)
+![image-20220405093322184](/images/mysql锁/01-mysql-lock.png)
 
 ##### **3.1** **从数据操作的类型划分：读锁、写锁**
 
@@ -317,7 +317,7 @@ Flush tables with read lock
 
 #### **4.** **锁的内存结构**
 
-![image-20220405151409557](https://cdn.jsdelivr.net/gh/aoshihuankong/cloudimg@master/img/202204051514736.png)
+![image-20220405151409557](/images/mysql锁/01-mysql-lock.png)
 
 结构解析：
 
@@ -347,7 +347,7 @@ Flush tables with read lock
 
 这是一个32位的数，被分成了`lock_mode`、`lock_type`和`rec_lock_type`三个部分，如图所示：
 
-![image-20220405151829547](https://cdn.jsdelivr.net/gh/aoshihuankong/cloudimg@master/img/202204051518659.png)
+![image-20220405151829547](/images/mysql锁/01-mysql-lock.png)
 
 - 锁的模式（`lock_mode`），占用低4位，可选的值如下：
   - `LOCK_IS`（十进制的`0`）：表示共享意向锁，也就是`IS锁`。 

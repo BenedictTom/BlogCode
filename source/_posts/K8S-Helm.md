@@ -4,7 +4,7 @@ main_color: "#707DE2"
 categories: 云原生
 tags:
   - K8S
-cover: https://free.picui.cn/free/2026/03/28/69c74d2a05353.jpg
+cover: /images/K8S-Helm/cover.jpg
 ---
 
 ## 什么是 Helm？

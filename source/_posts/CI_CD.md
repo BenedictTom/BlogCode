@@ -5,7 +5,7 @@ categories: 云原生
 tags:
   - CI/CD
   - 运维
-cover: https://www.youstable.com/blog/wp-content/uploads/2025/08/Fixing-CICD-Issues.jpg
+cover: /images/CI_CD/cover.jpg
 ---
 
 ## CI/CD

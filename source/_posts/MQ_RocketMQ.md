@@ -4,7 +4,7 @@ main_color: "#E2EAF4"
 categories: 消息队列
 tags:
   - 消息队列
-cover: https://free.picui.cn/free/2026/03/28/69c74f9f92765.png
+cover: /images/MQ_RocketMQ/cover.png
 ---
 
 # RocketMQ全面指南

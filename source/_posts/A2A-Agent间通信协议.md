@@ -3,7 +3,7 @@ title: A2A 协议：让 AI Agent 学会"对话"的通信标准
 date: 2026-05-11 14:00:00
 tags: [Agent, A2A, Protocol, AI]
 categories: [Agent]
-cover: https://free.picui.cn/free/2026/06/16/6a30c71d52000.png
+cover: /images/A2A-Agent间通信协议/cover.png
 ---
 
 ## 前言

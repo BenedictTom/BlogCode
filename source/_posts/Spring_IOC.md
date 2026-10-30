@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: Spring
 tags:
   - Spring
-cover: https://free.picui.cn/free/2026/03/29/69c7fc2ba4ee6.png
+cover: /images/Spring_IOC/cover.png
 ---
 
 

@@ -4,7 +4,7 @@ main_color: "#458d8dff"
 categories: Agent
 tags:
   - Agent
-cover: https://free.picui.cn/free/2026/03/28/69c74e3ac12f2.webp
+cover: /images/AI_MCP/cover.webp
 ---
 
 # FunctionCall、Agent、MCP：AI应用开发的三驾马车

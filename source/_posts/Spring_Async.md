@@ -6,7 +6,7 @@ tags:
   - Spring
   - 异步编程
   - 多线程
-cover: https://free.picui.cn/free/2026/03/28/69c74d88df959.png
+cover: /images/Spring_Async/cover.png
 ---
 
 # Spring Async 异步编程详解

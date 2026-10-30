@@ -4,7 +4,7 @@ main_color: "#E2EAF4"
 categories: 消息队列
 tags:
   - 消息队列
-cover: https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9391315761/p447741.png
+cover: /images/MQ_消息队列对比/cover.png
 ---
 
 

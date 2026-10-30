@@ -4,7 +4,7 @@ main_color: "#707DE2"
 categories: Java
 tags:
   - Java
-cover: https://free.picui.cn/free/2026/03/28/69c74e3b63595.png
+cover: /images/Java_枚举/cover.png
 ---
 
 # Java枚举的优雅使用

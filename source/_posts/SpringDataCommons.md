@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: Spring Data
 tags:
   - Spring Data
-cover: https://free.picui.cn/free/2026/03/28/69c74d6d1c35f.png
+cover: /images/SpringDataCommons/cover.png
 ---
 
 # Spring Data Commons 完整指南

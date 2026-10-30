@@ -4,7 +4,7 @@ main_color: "#80a340ff"
 categories: Rpc
 tags:
   - Rpc
-cover: https://free.picui.cn/free/2026/03/28/69c74e01965e4.png
+cover: /images/Rpc_gRpc/cover.png
 ---
 
 

@@ -4,7 +4,7 @@ main_color: "#1881a2ff"
 categories: ElasticSearch
 tags:
   - Spring Data
-cover: https://free.picui.cn/free/2026/03/28/69c74d6d1c35f.png
+cover: /images/SpringDataEs/cover.png
 ---
 
 # SpringDataElasticSearch 详细笔记

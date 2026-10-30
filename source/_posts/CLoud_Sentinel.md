@@ -4,7 +4,7 @@ main_color: "#2bb2b6ff"
 categories: 微服务
 tags:
   - Spring Cloud
-cover: https://free.picui.cn/free/2026/03/28/69c74fc120952.webp
+cover: /images/CLoud_Sentinel/cover.webp
 ---
 
 # Sentinel全面指南

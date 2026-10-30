@@ -4,7 +4,7 @@ main_color: "#26db53ff"
 categories: 数据结构
 tags:
   - 树
-cover: https://free.picui.cn/free/2026/03/28/69c74dc277b1c.png
+cover: /images/B树与B+树/cover.png
 ---
 
 ## B树
@@ -19,7 +19,7 @@ B 树是一种自平衡的树数据结构，能够保持数据有序并允许高
 
 ### 结构图
 
-![B树结构图](https://example.com/b-tree-structure.png)
+![B树结构图](/images/B树与B+树/01-tree.png)
 
 ### 操作
 - **查找**：从根节点开始，逐层向下查找，直到找到目标键或到达叶子节点。查找的时间复杂度为 O(log n)。
@@ -38,7 +38,7 @@ B+ 树是 B 树的一种变体，所有的值都存储在叶子节点中，内�
 
 ### 结构图
 
-![B+树结构图](https://example.com/b-plus-tree-structure.png)
+![B+树结构图](/images/B树与B+树/01-tree.png)
 
 ### 操作
 - **查找**：与 B 树相似，从根节点开始查找，直到找到叶子节点，查找的时间复杂度为 O(log n)。

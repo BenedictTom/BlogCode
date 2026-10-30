@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: Http
 tags:
   - Http
-cover: https://free.picui.cn/free/2026/03/28/69c74d13d5696.png
+cover: /images/常用Http客户端/cover.png
 ---
 
 ## RestTemplate

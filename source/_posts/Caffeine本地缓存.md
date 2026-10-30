@@ -4,7 +4,7 @@ main_color: "#c0e0e0"
 categories: 缓存  
 tags:
   - 缓存  
-cover: https://free.picui.cn/free/2026/03/28/69c74d59dd2a6.webp
+cover: /images/Caffeine本地缓存/cover.webp
 ---
 
 # Caffeine 本地缓存全方位详解

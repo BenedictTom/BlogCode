@@ -4,7 +4,7 @@ main_color: "#229ab2ff"
 categories: 缓存
 tags:
   - 缓存
-cover: https://free.picui.cn/free/2026/03/28/69c74f9f67bf4.png
+cover: /images/Memcached/cover.png
 ---
 
 # Memcached Java 集成指南

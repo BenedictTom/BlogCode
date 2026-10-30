@@ -4,7 +4,7 @@ main_color: "#458d8dff"
 categories: Java
 tags:
   - 开发工具    
-cover: https://pic.616pic.com/ys_bnew_img/00/25/56/FgPV3rWoMg.jpg
+cover: /images/优雅处理Entity转换/cover.jpg
 ---
 
 

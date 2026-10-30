@@ -5,7 +5,7 @@ categories: ORM
 tags:
   - ORM
   - Spring Data
-cover: https://free.picui.cn/free/2026/03/28/69c74e54f17ea.webp
+cover: /images/SpringDataJpa/cover.webp
 ---
 
 

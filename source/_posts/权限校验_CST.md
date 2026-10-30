@@ -4,7 +4,7 @@ main_color: "#4a0707ff"
 categories: 权限校验
 tags:
   - 权限校验
-cover: https://free.picui.cn/free/2026/03/28/69c74e0202b6b.png
+cover: /images/权限校验_CST/cover.png
 ---
 
 # CST

@@ -4,7 +4,7 @@ main_color: "#128fd3ff"
 categories: 定时任务
 tags:
   - 定时任务
-cover: https://ae01.alicdn.com/kf/H09d4e16cb3ef40bab7c0b8bc76e3a688w.png
+cover: /images/定时任务_SpringTask/cover.webp
 ---
 
 

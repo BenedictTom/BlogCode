@@ -4,7 +4,7 @@ main_color: "#c21b1bff"
 categories: 权限校验
 tags:
   - 权限校验
-cover: https://free.picui.cn/free/2026/03/28/69c74e1f08f27.jpeg
+cover: /images/权限校验_SpringSecurity/cover.jpg
 ---
 
 

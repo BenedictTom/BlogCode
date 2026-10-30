@@ -4,7 +4,7 @@ main_color: "#1881a2ff"
 categories: Swagger
 tags:
   - Swagger
-cover: https://free.picui.cn/free/2026/03/28/69c74fc1a9b96.png
+cover: /images/SpringDoc/cover.png
 ---
 
 # Spring-Doc 完整指南

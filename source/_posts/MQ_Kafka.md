@@ -4,7 +4,7 @@ main_color: "#E2EAF4"
 categories: 消息队列
 tags:
   - 消息队列
-cover: https://free.picui.cn/free/2026/03/28/69c74e1ec5a2e.webp
+cover: /images/MQ_Kafka/cover.webp
 ---
 
 

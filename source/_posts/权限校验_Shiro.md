@@ -4,7 +4,7 @@ main_color: "#5b144dff"
 categories: 权限校验
 tags:
   - 权限校验
-cover: https://free.picui.cn/free/2026/03/28/69c74d6c4a422.png
+cover: /images/权限校验_Shiro/cover.png
 ---
 
 

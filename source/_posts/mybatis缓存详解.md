@@ -4,7 +4,7 @@ main_color: "#1180c0ff"
 categories: ORM
 tags:
   - ORM
-cover: https://free.picui.cn/free/2026/03/28/69c74e3ab3516.jpg
+cover: /images/mybatis缓存详解/cover.jpg
 ---
 
 

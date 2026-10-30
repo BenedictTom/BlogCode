@@ -4,7 +4,7 @@ main_color: "rgb(11, 32, 228)"
 categories: 消息队列
 tags:
   - AMQP
-cover: https://free.picui.cn/free/2026/03/28/69c74d6c92bf8.png
+cover: /images/SpringAMQP/cover.png
 ---
 
 > 一文吃透 AMQP 与 Spring AMQP（Spring for RabbitMQ）在生产中的用法：从快速上手、可靠投递、消费确认、重试与死信、延迟消息、幂等与顺序、批量消费、监控与测试，到常见问题排查，配齐可运行示例。

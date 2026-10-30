@@ -4,7 +4,7 @@ main_color: "#80a340ff"
 categories: Redis
 tags:
   - Redis
-cover: https://www.zdnet.com/a/img/resize/de9071070cd7af7e4fa747cfefb167b9752580b6/2019/07/01/88f8ee84-6545-4d90-82c2-c068c9f8d5d6/redis1.jpg?auto=webp&fit=crop&height=675&width=1200
+cover: /images/Redis_Set/cover.png
 ---
 
 

@@ -4,7 +4,7 @@ main_color: "#21bdbdff"
 categories: 流量控制
 tags:
   - 并发    
-cover: https://free.picui.cn/free/2026/03/28/69c74e1f15517.png
+cover: /images/限流_Ratelimit/cover.png
 ---
 
 

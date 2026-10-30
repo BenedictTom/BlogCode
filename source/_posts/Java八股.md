@@ -5,7 +5,7 @@ categories: 面试者
 tags:
   - Java
   - 八股
-cover: https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e1487d0f0.webp
+cover: /images/Java八股/cover.webp
 ---
 
 # Java 八股面试题及答案

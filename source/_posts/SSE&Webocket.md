@@ -4,7 +4,7 @@ main_color: "#1881a2ff"
 categories: http
 tags:
   - http
-cover: https://free.picui.cn/free/2026/03/28/69c74fc2598a0.png
+cover: /images/SSE&Webocket/cover.png
 ---
 
 # SSE 与 WebSocket 完整指南

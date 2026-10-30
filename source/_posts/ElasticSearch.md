@@ -4,7 +4,7 @@ main_color: "#229ab2ff"
 categories: ElasticSearch
 tags:
   - ElasticSearch
-cover: https://free.picui.cn/free/2026/03/28/69c74d2a3cbb9.png
+cover: /images/ElasticSearch/cover.png
 ---
 
 # ElasticSearch基础学习指南

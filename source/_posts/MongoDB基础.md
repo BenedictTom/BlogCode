@@ -4,7 +4,7 @@ main_color: "#229ab2ff"
 categories: 数据库
 tags:
   - MongoDB
-cover: https://free.picui.cn/free/2026/03/28/69c74e3b20d4f.png  
+cover: /images/MongoDB基础/cover.png
 ---
 
 # MongoDB 基础入门

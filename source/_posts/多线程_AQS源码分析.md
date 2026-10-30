@@ -5,7 +5,7 @@ categories: 并发
 tags:
   - 并发
   - 多线程
-cover: https://free.picui.cn/free/2026/03/28/69c74d88b7f09.jpg
+cover: /images/多线程_AQS源码分析/cover.jpg
 ---
 
 # AQS源码深度分析
