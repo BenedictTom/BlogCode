@@ -20,7 +20,7 @@ MCP 就是**给"模型调工具"这件事定的一份说明书**：用 JSON-RPC 
 下面按你关心的顺序一个个说。先看图。
 
 <figure>
-<img src="/images/MCP全解/mcp-illustration.gif" alt="MCP 示意图" width="460">
+<img src="/images/MCP全解/cover.gif" alt="MCP 示意图" width="460">
 <figcaption>MCP 协议插图（本文封面同款）</figcaption>
 </figure>
 
