@@ -31,7 +31,23 @@ ARTICLES = {
     "Pi-Durable-上": (7, ["Pi Durable（上）", "先落盘，再显示"]),
     "Pi-Durable-下": (8, ["Pi Durable（下）", "谁在跑，谁在看"]),
     "Pi-Codemode":  (9, ["Pi-Codemode", "让模型写一段脚本去调工具"]),
+    # 跨系列对比篇：同版式，但 kicker 与页脚换成两边仓库
+    "Agent主循环对比": (10, ["同一个 Agent 主循环",
+                          "两种工程答案：Pi 与 DSH 对照解剖"]),
 }
+
+OVERRIDES = {
+    "Agent主循环对比": {
+        "kicker": "AGENT  ·  PI vs DSH",
+        "footer_card": "earendil-works/pi 395f3e0  ·  @deepseek-ai/dsh-agent-loop",
+        "footer_bleed": "earendil-works/pi 395f3e0  ·  dsh-agent-loop",
+    },
+}
+
+
+def meta(slug):
+    ov = OVERRIDES.get(slug, {})
+    return ov.get("kicker") or f"PI SERIES  ·  {ARTICLES[slug][0]:02d} / 09", ov
 
 BG_TOP, BG_BOT = (11, 18, 32), (20, 30, 52)
 ACCENT = "#f97316"
@@ -64,7 +80,8 @@ def make(slug, art_path=ART, out_dir=None):
         d.line([(0, y), (W * S, y)], fill=(28, 39, 62, 255))
 
     # 顶部文字区
-    d.text((96 * S, 62 * S), f"PI SERIES  ·  {idx:02d} / 09", font=font(26), fill=KICKER)
+    kicker, ov = meta(slug)
+    d.text((96 * S, 62 * S), kicker, font=font(26), fill=KICKER)
     d.text((96 * S, 112 * S), lines[0], font=font(62), fill="#ffffff")
     d.text((96 * S, 196 * S), lines[1], font=font(30, 0), fill=BODY)
 
@@ -102,7 +119,7 @@ def make(slug, art_path=ART, out_dir=None):
 
     # 底部来源行
     d.text((96 * S, 856 * S),
-           "earendil-works/pi  ·  HEAD 395f3e0  ·  coding-agent 1.5.0",
+           ov.get("footer_card") or "earendil-works/pi  ·  HEAD 395f3e0  ·  coding-agent 1.5.0",
            font=font(22, 0), fill=MUTED)
 
     out = canvas.resize((W, H), Image.LANCZOS).convert("RGB")
@@ -145,7 +162,8 @@ def make_bleed(slug, art_path=ART, out_dir=None):
 
     d = ImageDraw.Draw(canvas)
     d.rectangle([96 * S, 296 * S, 104 * S, 476 * S], fill=ACCENT)
-    d.text((132 * S, 250 * S), f"PI SERIES  ·  {idx:02d} / 09", font=font(26), fill=KICKER)
+    kicker, ov = meta(slug)
+    d.text((132 * S, 250 * S), kicker, font=font(26), fill=KICKER)
 
     # 标题按可用宽度自适应，最多 620px
     max_w = 620
@@ -160,7 +178,7 @@ def make_bleed(slug, art_path=ART, out_dir=None):
     for i, c in enumerate(chunks):
         d.text((132 * S, (398 + i * 42) * S), c, font=font(30, 0), fill=BODY)
     d.text((132 * S, 856 * S),
-           "earendil-works/pi  ·  HEAD 395f3e0", font=font(22, 0), fill="#9aa8bd")
+           ov.get("footer_bleed") or "earendil-works/pi  ·  HEAD 395f3e0", font=font(22, 0), fill="#9aa8bd")
 
     out = canvas.resize((W, H), Image.LANCZOS).convert("RGB")
     if out_dir:
