@@ -34,6 +34,8 @@ ARTICLES = {
     # 跨系列对比篇：同版式，但 kicker 与页脚换成两边仓库
     "Agent主循环对比": (10, ["同一个 Agent 主循环",
                           "两种工程答案：Pi 与 DSH 对照解剖"]),
+    "Pi-MCP与Codemode": (10, ["Codemode 与 MCP",
+                              "先拒绝，为什么又加回来"]),
 }
 
 OVERRIDES = {
@@ -41,6 +43,11 @@ OVERRIDES = {
         "kicker": "AGENT  ·  PI vs DSH",
         "footer_card": "earendil-works/pi 395f3e0  ·  @deepseek-ai/dsh-agent-loop",
         "footer_bleed": "earendil-works/pi 395f3e0  ·  dsh-agent-loop",
+    },
+    "Pi-MCP与Codemode": {
+        "kicker": "PI SERIES  ·  MCP × CODEMODE",
+        "footer_card": "earendil-works/pi 395f3e0  ·  coding-agent 1.5.0  ·  mcp.json",
+        "footer_bleed": "earendil-works/pi  ·  MCP × CODEMODE",
     },
 }
 
