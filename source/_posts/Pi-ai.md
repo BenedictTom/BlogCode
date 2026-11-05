@@ -8,7 +8,7 @@ tags:
   - pi-ai
   - LLM
   - Streaming
-cover: /images/Pi-ai/cover.png
+cover: /images/Pi-ai/cover.jpg
 description: 拆 pi-ai 的包结构：43 个 provider 只落在 10 种 wire 协议上，11 个流式事件、两套认证路径、生成式模型目录，以及它为什么被设计成一个"无状态工具箱"。
 ---
 

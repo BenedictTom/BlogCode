@@ -8,7 +8,7 @@ tags:
   - Agent
   - Context
   - Prompt
-cover: /images/Pi-上下文/cover.png
+cover: /images/Pi-上下文/cover.jpg
 description: 把一次请求的输入拆成五层：system prompt 拼装、项目约定、技能索引、会话投影、消息规范化，最后才是 token 预算与压缩。
 ---
 

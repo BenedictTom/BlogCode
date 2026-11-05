@@ -3,7 +3,7 @@ title: "Pi 的 Agent Loop：一次请求转几圈，它凭什么知道该停了"
 date: 2026-11-05 01:40:00
 categories: [Pi]
 tags: [Pi, Agent, 源码解析]
-cover: /images/Pi-Loop/cover.png
+cover: /images/Pi-Loop/cover.jpg
 description: 整份代码里最短也最关键的 159 行：双层循环、四种终止条件、两种工具并发策略，以及"截断的工具调用为什么一个都不许执行"。
 ---
 

@@ -8,7 +8,7 @@ tags:
   - pi-durable
   - Durable
   - Extension
-cover: /images/Pi-Durable-下/cover.png
+cover: /images/Pi-Durable-下/cover.jpg
 description: 讲 durable 的另一半：任务所有权与后台任务的边界、文档的同事务 fork、扩展的五类内容与钩子链语义、多客户端 watch 视图，以及为什么这里能"边聊边压缩"。
 ---
 

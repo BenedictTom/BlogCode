@@ -8,7 +8,7 @@ tags:
   - Codemode
   - MCP
   - Sandbox
-cover: /images/Pi-Codemode/cover.png
+cover: /images/Pi-Codemode/cover.jpg
 description: Codemode 把"一个个工具调用"换成"一段脚本"：脚本在 QuickJS 沙箱里跑，中间结果不进上下文，MCP 工具默认只以 codemode 形式暴露。
 ---
 

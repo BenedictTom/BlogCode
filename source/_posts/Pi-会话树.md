@@ -8,7 +8,7 @@ tags:
   - Agent
   - Session
   - JSONL
-cover: /images/Pi-会话树/cover.png
+cover: /images/Pi-会话树/cover.jpg
 description: 拆开 Pi 的会话存储：为什么一条对话被存成一棵 append-only 的树，leafId 是什么，压缩和回退怎么在树上"切一刀"而不删东西。
 ---
 

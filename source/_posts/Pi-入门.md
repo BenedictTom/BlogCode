@@ -3,7 +3,7 @@ title: "Pi 入门：从一条命令，到一个会改代码的 agent"
 date: 2026-11-05 01:10:00
 categories: [Pi]
 tags: [Pi, Agent, 源码解析]
-cover: /images/Pi-入门/cover.png
+cover: /images/Pi-入门/cover.jpg
 description: 把 Pi 拆开看：一条 `pi` 命令进来之后，参数怎么解析、会话从哪来、十一个包各自管什么，以及为什么它要把一个 agent 拆得这么碎。
 ---
 

@@ -8,7 +8,7 @@ tags:
   - pi-durable
   - Durable
   - Agent
-cover: /images/Pi-Durable-上/cover.png
+cover: /images/Pi-Durable-上/cover.jpg
 description: pi-durable 把"一次模型回合"变成一串可恢复的相位：提交、checkpoint、resume、replay、幂等。这一篇只讲它怎么活过崩溃。
 ---
 

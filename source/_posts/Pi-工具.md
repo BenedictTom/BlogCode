@@ -8,7 +8,7 @@ tags:
   - Agent
   - Tool
   - TypeBox
-cover: /images/Pi-工具/cover.png
+cover: /images/Pi-工具/cover.jpg
 description: 从 ToolDefinition 的字段出发，讲清工具的参数校验、执行模式、并发冲突、模型输出的兼容层与结果回传——以及一个工具为什么要带 UI 渲染函数。
 ---
 
