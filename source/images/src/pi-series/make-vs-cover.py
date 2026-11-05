@@ -1,87 +1,71 @@
 #!/usr/bin/env python3
 """《Pi 与 DSH 主循环对比》封面：左右各 50% 的拼装版。
 
-左半：鲸鱼娘（DSH 系列用过的角色图，1024×1024，等比铺满 800×900，左右各裁 50px）
-右半：Pi 的截图（1656×782，先铺一层同图模糊底，再把原图等比放进中间，不裁内容）
-接缝：1px 半透明分割线
+素材全部取自本地，不用外链图床：
+    左半  source/images/DSH-Agent主循环/maid.png      440×440，带透明通道的立绘
+    右半  /Users/smzdm/Downloads/screenshot-20261105-095904.png  1656×782，Pi 截图
+版式：1600×900，中缝对半分；两侧同底色（取自截图背景 #eae5e3）；
+      左半立绘按可见内容高度 88% 竖直居中，右半截图按宽度铺满、不裁内容。
 
 用法：
-    python3 make-vs-cover.py            # 写到 ../../images/Agent主循环对比/cover.jpg
+    python3 make-vs-cover.py                 # 写到 ../../images/Agent主循环对比/cover.jpg
+    python3 make-vs-cover.py --fit fill      # 右半改成铺满裁切
     python3 make-vs-cover.py --out /tmp/x.jpg
 """
 import argparse
 import os
 
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw
 
 W, H = 1600, 900
 LEFT_W = W // 2
+BG = (234, 229, 227)
 
-MAID = "/tmp/maid1024.png"
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.abspath(os.path.join(HERE, "../../../.."))
+MAID = os.path.join(REPO, "source/images/DSH-Agent主循环/maid.png")
 PI = "/Users/smzdm/Downloads/screenshot-20261105-095904.png"
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                   "../../../images/Agent主循环对比/cover.jpg")
-
-
-def cover(im, box, focus_x=0.5):
-    """等比铺满 box，按 focus_x 决定横向裁切重心。"""
-    bw, bh = box
-    scale = max(bw / im.width, bh / im.height)
-    nw, nh = round(im.width * scale), round(im.height * scale)
-    im = im.resize((nw, nh), Image.LANCZOS)
-    x = round((nw - bw) * focus_x)
-    y = round((nh - bh) / 2)
-    return im.crop((x, y, x + bw, y + bh))
-
-
-def rounded(im, radius):
-    mask = Image.new("L", im.size, 0)
-    ImageDraw.Draw(mask).rounded_rectangle((0, 0, im.width - 1, im.height - 1), radius, fill=255)
-    out = im.convert("RGBA")
-    out.putalpha(mask)
-    return out
+OUT = os.path.join(REPO, "source/images/Agent主循环对比/cover.jpg")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=OUT)
-    ap.add_argument("--plate", type=float, default=0.38, help="右半模糊底的压暗系数")
+    ap.add_argument("--fit", choices=["contain", "fill"], default="fill",
+                    help="右半截图的放法：contain 完整显示，fill 铺满裁切")
     args = ap.parse_args()
 
-    canvas = Image.new("RGB", (W, H), (234, 229, 227))
+    canvas = Image.new("RGB", (W, H), BG)
 
-    # 左半：鲸鱼娘
-    maid = Image.open(MAID).convert("RGB")
-    canvas.paste(cover(maid, (LEFT_W, H), focus_x=0.5), (0, 0))
+    # 左半：立绘按可见内容高度 88% 居中（原图 440 见方，放大后靠 LANCZOS 收敛）
+    maid = Image.open(MAID).convert("RGBA")
+    char = maid.crop(maid.getbbox())
+    scale = (H * 0.88) / char.height
+    if round(char.width * scale) > LEFT_W * 0.94:
+        scale = LEFT_W * 0.94 / char.width
+    char = char.resize((max(1, round(char.width * scale)), max(1, round(char.height * scale))), Image.LANCZOS)
+    canvas.paste(char, ((LEFT_W - char.width) // 2, (H - char.height) // 2), char)
 
-    # 右半：模糊底 + 原图
+    # 右半：截图
     pi = Image.open(PI).convert("RGB")
-    plate = cover(pi, (LEFT_W, H)).filter(ImageFilter.GaussianBlur(26))
-    k = args.plate
-    plate = Image.eval(plate, lambda v: int(v * k) + 8)
-    canvas.paste(plate, (LEFT_W, 0))
+    if args.fit == "fill":
+        s = max(LEFT_W / pi.width, H / pi.height)
+        nw, nh = round(pi.width * s), round(pi.height * s)
+        shot = pi.resize((nw, nh), Image.LANCZOS)
+        x, y = (nw - LEFT_W) // 2, (nh - H) // 2
+        shot = shot.crop((x, y, x + LEFT_W, y + H))
+    else:
+        shot = pi.resize((LEFT_W, round(pi.height * LEFT_W / pi.width)), Image.LANCZOS)
+    canvas.paste(shot, (LEFT_W, (H - shot.height) // 2))
 
-    inset = 40
-    shot = pi.resize((LEFT_W - inset * 2, round(pi.height * (LEFT_W - inset * 2) / pi.width)), Image.LANCZOS)
-    shot = rounded(shot, 10)
-    sx, sy = LEFT_W + inset, (H - shot.height) // 2
-
-    shadow = Image.new("RGBA", (shot.width + 48, shot.height + 48), (0, 0, 0, 0))
-    ImageDraw.Draw(shadow).rounded_rectangle((24, 28, 24 + shot.width, 28 + shot.height), 12, fill=(0, 0, 0, 90))
-    shadow = shadow.filter(ImageFilter.GaussianBlur(14))
-    canvas.paste(Image.new("RGB", shadow.size, (0, 0, 0)), (sx - 24, sy - 24), shadow)
-
-    canvas.paste(shot, (sx, sy), shot)
-    ImageDraw.Draw(canvas).rounded_rectangle(
-        (sx, sy, sx + shot.width - 1, sy + shot.height - 1), 10, outline=(255, 255, 255), width=1)
-
-    # 接缝
-    d = ImageDraw.Draw(canvas, "RGBA")
-    d.line([(LEFT_W, 0), (LEFT_W, H)], fill=(0, 0, 0, 26), width=1)
+    # 中缝
+    ImageDraw.Draw(canvas, "RGBA").line([(LEFT_W, 0), (LEFT_W, H)], fill=(0, 0, 0, 22), width=1)
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
-    canvas.save(args.out, "JPEG", quality=84, optimize=True, progressive=True)
-    print(f"{args.out} {canvas.size} {os.path.getsize(args.out):,} B")
+    canvas.save(args.out, "JPEG", quality=88, optimize=True, progressive=True)
+    print(f"{args.out} {canvas.size} {os.path.getsize(args.out):,} B "
+          f"(maid {char.width}×{char.height} @ {(LEFT_W-char.width)//2},{(H-char.height)//2}; "
+          f"pi {shot.width}×{shot.height} @ {LEFT_W},{(H-shot.height)//2})")
 
 
 if __name__ == "__main__":
